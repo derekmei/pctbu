@@ -1,3 +1,97 @@
-.sexysanam {
-	
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+/****** Colored Divs ******/
+.stats-div {
+	background-color: #424053;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.white-div {
+	background-color: #F9F9F9;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+.black-div-title {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #424053;
+}
+
+.black-paragraph {
+	text-transform: uppercase;
+	font-size: 13px;
+	line-height: 1.3em;
+	color: #424053;
+}
+
+
+
+/****** Home Styles ******/
+.stats-numbers {
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-bottom: 4px;
+}
+
+.stats-desc {
+	font-weight: lighter;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+
+
+
+
+/****** Footer Styles ******/
+
+.footer {
+	background-color: #292C2F;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer-grey-text {
+	color: #D0D0D0;
+	font-size: 14px;
+	letter-spacing: .2px;
+	font-weight: lighter;
+}
+
+.footer-social {
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+
+.footer-social-icon {
+	height: 28px;
+	width: auto;
+}
+
+.footer-motto-text {
+	color: #FEFF9F;
+	font-size: 14px;
+	letter-spacing: .2px;
+	font-weight: lighter;
 }
