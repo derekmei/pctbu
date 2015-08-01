@@ -1,0 +1,19 @@
+/*** HEADER ***/
+
+#navbar-background {
+    background-color: #F8F8F8;
+    background-image: none;
+}
+
+#pct-navbar {
+    height: 75px;
+}
+
+#brand {
+    width: 300px;
+    height: 73px;
+}
+
+#pct-navbar-brand {
+    display: inline-block;
+}
