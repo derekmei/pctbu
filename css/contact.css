@@ -1,0 +1,36 @@
+/*** CONTACT PAGE ***/
+
+/* CONTACT HEADER */
+.contact-header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-header h3 {
+    color: #424053;
+    margin-bottom: 20px;
+}
+.contact-header p {
+    color: #424053;
+}
+
+/* CONTACT FORM */
+
+.contact-form {
+    margin-top: 40px;
+}
+
+.contact-group {
+    margin-bottom: 30px;
+}
+
+.contact-input {
+    border-radius: 0;
+}
+
+.contact-input:focus {
+    border: 1px solid #5E2075;
+    box-shadow: none;
+}
+
+
