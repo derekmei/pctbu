@@ -15,8 +15,6 @@ body {
 
 
 
-
-
 /****** Colored Divs ******/
 .stats-div {
 	background-color: #424053;
@@ -26,30 +24,60 @@ body {
 
 .white-div {
 	background-color: #F9F9F9;
-	padding-top: 36px;
-	padding-bottom: 36px;
+	padding-top: 56px;
+	padding-bottom: 76px;
+}
+
+.dark-purple-div {
+	background-color: #424053;
+	padding-top: 56px;
+	padding-bottom: 76px;
+}
+
+
+
+/****** Home Styles ******/
+.cover {
+	background-image: url("../img/city-cover.jpg");
+	max-height: 100%;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.main-head {
+	color: #E8EEFC;
+	font-size: 40px;
+	line-height: 1.8em;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: .5em;
+	width: 50%;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
 }
 
 .black-div-title {
 	text-transform: uppercase;
 	font-size: 18px;
 	color: #424053;
+	padding-top: 12px;
+	padding-bottom: 16px;
 }
 
 .black-paragraph {
-	text-transform: uppercase;
 	font-size: 13px;
-	line-height: 1.3em;
+	line-height: 2.3em;
 	color: #424053;
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+	font-weight: lighter;
 }
 
-
-
-/****** Home Styles ******/
 .stats-numbers {
 	font-size: 22px;
 	font-weight: bold;
-	color: #FFFFFF;
+	color: #F9F9F9;
 	margin-bottom: 4px;
 }
 
@@ -57,11 +85,62 @@ body {
 	font-weight: lighter;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #FFFFFF;
+	color: #F9F9F9;
 }
 
+.white-div-title {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #cdccce;
+	padding-top: 12px;
+	padding-bottom: 10px;
+}
 
+.white-paragraph {
+	font-size: 13px;
+	line-height: 2.3em;
+	color: #cdccce;
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+	font-weight: lighter;
+	text-align: center;
+}
 
+.white-subtitle {
+	font-size: 15px;
+	line-height: 2em;
+	color: #cdccce;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.home-icon {
+	height: 29px;
+	width: auto;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.rush-button {
+	text-transform: uppercase;
+	background-color: #865897;
+	-webkit-box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.75);
+	padding: 6px 0px;
+	width: 140px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-weight: lighter;
+
+}
 
 
 /****** Footer Styles ******/
@@ -85,7 +164,7 @@ body {
 }
 
 .footer-social-icon {
-	height: 28px;
+	height: 25px;
 	width: auto;
 }
 
