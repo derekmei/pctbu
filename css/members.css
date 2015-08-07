@@ -1,0 +1,29 @@
+/*** Members Nav ***/
+
+.member-nav-container {
+    margin-top: 50px;
+}
+
+.member-nav {
+    list-style-type: none;
+}
+
+.member-nav li {
+    margin-bottom: 10px;
+}
+
+.member-nav li a {
+    text-decoration: none;
+    color: #BBBBBB;
+}
+
+.member-nav li .active-class {
+    color: #865897;
+}
+
+/*** Members Body ***/
+
+.member-title {
+    text-align: center;
+    color: #865897;
+}
