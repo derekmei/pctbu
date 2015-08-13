@@ -1,11 +1,32 @@
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
 /*** Members Nav ***/
+.members {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
 
 .member-nav-container {
-    margin-top: 50px;
+    margin-top: 26px;
 }
 
 .member-nav {
     list-style-type: none;
+    margin-left: 30px;
 }
 
 .member-nav li {
@@ -19,6 +40,92 @@
 
 .member-nav li .active-class {
     color: #865897;
+}
+
+.member-grid {
+	margin-left: -5px;
+}
+
+.member-photo {
+	width: 140px;
+	height: auto;
+}
+
+.member-row {
+	margin-top: 20px;
+}
+
+.member-name {
+	margin-top: 3px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.member-photo {
+		width: 170px;
+		margin-top: 30px;
+	}
+
+	.member-grid {
+		margin-left: 20px;
+		margin-bottom: -30px;
+	}
+
+	.member-name {
+		font-size: 13px;
+	}
+
+	.member-nav {
+		font-size: 13px;
+	}
+
+	.member-nav-container {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.member-nav-container {
+		margin-top: -5px;
+	}
+
+	.member-nav {
+		padding-left: 0px;
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: -20px
+	}
+
+	.member-grid {
+		margin-left: 0px;
+	}
+
+	.member-photo {
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 500px) {
+	.member-nav {
+		font-size: 12px;
+	}
+
+	.member-name {
+		font-size: 11px;
+	}
+
+	.member-photo {
+		width: 120px;
+	}
+
+	.members {
+		padding-top: 70px;
+		padding-bottom: 50px;
+	}
+
+	li.nav-link > a {
+		background-color: rgba(0,0,0,.9);
+		font-size: 12px;
+	}
 }
 
 /*** Members Body ***/

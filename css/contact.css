@@ -1,17 +1,16 @@
 /*** CONTACT PAGE ***/
 
 /* CONTACT HEADER */
-.contact-header {
-    text-align: center;
-    margin-top: 40px;
+.contact {
+    padding-top: 100px;
+    padding-bottom: 40px;
 }
 
-.contact-header h3 {
+.contact-paragraph {
     color: #424053;
-    margin-bottom: 20px;
-}
-.contact-header p {
-    color: #424053;
+    line-height: 2.0;;
+    margin: 5px auto;
+    font-weight: lighter;
 }
 
 /* CONTACT FORM */
@@ -33,4 +32,29 @@
     box-shadow: none;
 }
 
+@media (max-width: 767px) {
+    .contact-form {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
 
+    .contact-paragraph {
+        width: 70%;
+        font-size: 12px;
+    }
+
+    label {
+        font-size: 13px;
+    }
+
+    .contact {
+        padding-top: 90px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-paragraph {
+        font-size: 11px;
+    }
+}
